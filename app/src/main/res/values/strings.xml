@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Hero App</string>
+    <string name="dsc_hero1">Sikkim Mahinda, commonly known as S. Mahinda, was a Buddhist monk from the state of Sikkim. He was a poet and author, and participated in the Sri Lankan independence movement. Although he was from Sikkim, he identified himself as a Tibetan, presumably because it was more well known in Ceylon</string>
+    <string name="hero1">S.Mahinda Thero</string>
 </resources>
