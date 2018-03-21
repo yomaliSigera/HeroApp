@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle("Heroes From Past");
     }
     public void click(View v) {
         Intent intent = new Intent();
@@ -18,9 +19,15 @@ public class MainActivity extends AppCompatActivity {
             case R.id.txtHero1:
                 intent = new Intent(this, HeroCharacter1.class);
                 break;
-           // case R.id.albertB: // R.id.textView2
-             //   intent = new Intent(this, ThirdClass.class);
-            //    break;
+            case R.id.txtHero2: // R.id.textView2
+                intent = new Intent(this, HeroCharacter2.class);
+               break;
+            case R.id.txtHero3: // R.id.textView3
+                intent = new Intent(this, HeroCharacter3.class);
+                break;
+            case R.id.txtHero4: // R.id.textView4
+                intent = new Intent(this, HeroCharacter4.class);
+                break;
         }
         startActivity(intent);
 

@@ -9,8 +9,8 @@
     <RelativeLayout
         android:layout_width="368dp"
         android:layout_height="505dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="-2dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp">
 
         <TextView
             android:id="@+id/textView"
@@ -18,11 +18,10 @@
             android:layout_height="40dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="21dp"
-            android:layout_marginTop="41dp"
-            android:text="Hero's From Past"
+            android:layout_marginTop="44dp"
+            android:text="Heroes From Past"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="32sp"
+            android:textSize="25sp"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="16dp" />
 
@@ -35,7 +34,20 @@
             android:layout_toEndOf="@+id/imageView"
             android:onClick="click"
             android:text="@string/hero1"
-            android:textSize="25sp"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="92dp" />
+
+        <TextView
+            android:id="@+id/txtHero2"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:layout_alignStart="@+id/txtHero1"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="29dp"
+            android:onClick="click"
+            android:text="Anagarika dharmapala"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="96dp"
             tools:layout_editor_absoluteY="92dp" />
 
@@ -45,8 +57,65 @@
             android:layout_height="43dp"
             android:layout_alignStart="@+id/textView"
             android:layout_below="@+id/textView"
-            android:layout_marginStart="47dp"
-            android:layout_marginTop="42dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="44dp"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="83dp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="39dp"
+            android:layout_height="43dp"
+            android:layout_alignBottom="@+id/txtHero2"
+            android:layout_alignStart="@+id/imageView"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="83dp" />
+
+
+        <TextView
+            android:id="@+id/txtHero3"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:layout_alignStart="@+id/txtHero2"
+            android:layout_below="@+id/txtHero2"
+            android:layout_marginTop="23dp"
+            android:onClick="click"
+            android:text="Nelson Mandela"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="92dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="39dp"
+            android:layout_height="43dp"
+            android:layout_alignStart="@+id/imageView1"
+            android:layout_alignTop="@+id/txtHero3"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="83dp" />
+
+        <TextView
+            android:id="@+id/txtHero4"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:layout_alignStart="@+id/txtHero3"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginTop="22dp"
+            android:onClick="click"
+            android:text="Mahathma Ghandi "
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="92dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="39dp"
+            android:layout_height="43dp"
+            android:layout_alignStart="@+id/imageView2"
+            android:layout_alignTop="@+id/txtHero4"
             app:srcCompat="@mipmap/ic_launcher_round"
             tools:layout_editor_absoluteX="31dp"
             tools:layout_editor_absoluteY="83dp" />
